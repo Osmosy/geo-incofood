@@ -1,0 +1,25 @@
+date,engine,prompt_id,scenario_class,weight,repeat,web_search,brand_mentioned,brand_role,brand_pos,competitor,competitor_role,brand_cited,competitor_cited
+2026-11-15,claude,cat-01,category,3,1,true,false,none,,Брестский мясокомбинат,recommended,false,false
+2026-11-15,claude,cat-01,category,3,2,true,false,none,,Брестский мясокомбинат,top,false,false
+2026-11-15,claude,cat-01,category,3,3,true,false,none,,Гродненский мясокомбинат,recommended,false,false
+2026-11-15,claude,cat-02,category,3,1,true,true,listed,9,Брестский мясокомбинат,top,false,false
+2026-11-15,claude,cat-02,category,3,2,true,true,listed,11,Брестский мясокомбинат,recommended,false,false
+2026-11-15,claude,cat-02,category,3,3,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,cat-04,category,3,1,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,cat-04,category,3,2,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,cat-04,category,3,3,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,cmp-01,compare,3,1,true,true,negative,2,Брестский мясокомбинат,recommended,false,false
+2026-11-15,claude,cmp-01,compare,3,2,true,true,listed,2,Брестский мясокомбинат,recommended,false,false
+2026-11-15,claude,cmp-01,compare,3,3,true,true,listed,2,Брестский мясокомбинат,top,false,false
+2026-11-15,claude,cmp-02,compare,3,1,true,true,listed,2,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,cmp-02,compare,3,2,true,true,listed,2,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,cmp-02,compare,3,3,true,true,listed,2,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,task-01,task,3,1,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,task-01,task,3,2,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,task-01,task,3,3,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,task-02,task,3,1,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,task-02,task,3,2,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,task-02,task,3,3,true,false,none,,Гродненский мясокомбинат,listed,false,false
+2026-11-15,claude,task-03,task,3,1,true,false,none,,Брестский мясокомбинат,recommended,false,false
+2026-11-15,claude,task-03,task,3,2,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,claude,task-03,task,3,3,true,false,none,,Брестский мясокомбинат,listed,false,false

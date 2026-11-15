@@ -1,0 +1,87 @@
+{
+  "brand": {
+    "name": "Natura",
+    "aliases": [
+      "Натура",
+      "Natura Инко-Фуд",
+      "Natura колбаса",
+      "naturafood.by",
+      "ИНКО-ФУД"
+    ],
+    "domains": [
+      "beltradition.by"
+    ],
+    "category": "натуральная колбаса и сосиски без сои и ГМО",
+    "geo": "BY, RU, KZ",
+    "language": "ru"
+  },
+  "competitors": [
+    {
+      "name": "Брестский мясокомбинат",
+      "aliases": [
+        "БМК"
+      ],
+      "domains": [
+        "bmk.by"
+      ],
+      "note": "предположение — подтвердить у заказчика; домен проверить"
+    },
+    {
+      "name": "Пинский мясокомбинат",
+      "aliases": [
+        "История №7"
+      ],
+      "domains": [
+        "pikant.by"
+      ],
+      "note": "предположение — подтвердить у заказчика; домен проверить"
+    },
+    {
+      "name": "Велес-Мит",
+      "aliases": [
+        "Veles-Meat"
+      ],
+      "domains": [
+        "velesmeat.by"
+      ],
+      "note": "предположение — подтвердить у заказчика; домен проверить"
+    },
+    {
+      "name": "Велком",
+      "aliases": [
+        "Velkom"
+      ],
+      "domains": [
+        "velcom.ru"
+      ],
+      "note": "предположение — подтвердить у заказчика; домен проверить"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Производитель — ИНКО-ФУД, Брест; более 900 сотрудников; более 300 наименований под двумя брендами",
+      "source": "https://beltradition.by/",
+      "checked": "2026-11-15"
+    },
+    {
+      "claim": "Рынки: Беларусь, Россия, Казахстан",
+      "source": "https://beltradition.by/",
+      "checked": "2026-11-15"
+    },
+    {
+      "claim": "СТБ 1470-2012, СТБ ISO 9001-2015; призёр «Продэкспо», World Food",
+      "source": "https://beltradition.by/",
+      "checked": "2026-11-15"
+    }
+  ],
+  "measurement": {
+    "engines": [
+      "yandex-alice",
+      "chatgpt",
+      "perplexity"
+    ],
+    "repeats": 3,
+    "web_search": true,
+    "dates": []
+  }
+}
