@@ -1,0 +1,181 @@
+date,engine,prompt_id,scenario_class,weight,repeat,web_search,brand_mentioned,brand_role,brand_pos,competitor,competitor_role,brand_cited,competitor_cited
+2026-11-15,alice,brd-01,brand,2,1,true,true,listed,1,,none,true,false
+2026-11-15,alice,brd-01,brand,2,2,true,true,listed,1,,none,false,false
+2026-11-15,alice,brd-01,brand,2,3,true,true,listed,1,,none,true,false
+2026-11-15,alice,brd-02,brand,1,1,true,true,listed,1,,none,false,false
+2026-11-15,alice,brd-02,brand,1,2,true,true,listed,1,,none,false,false
+2026-11-15,alice,brd-02,brand,1,3,true,true,listed,1,,none,false,false
+2026-11-15,alice,brd-03,brand,2,1,true,true,listed,1,,none,false,false
+2026-11-15,alice,brd-03,brand,2,2,true,true,listed,1,,none,false,false
+2026-11-15,alice,brd-03,brand,2,3,true,true,recommended,1,,none,false,false
+2026-11-15,alice,brd-04,brand,1,1,true,true,listed,1,,none,false,false
+2026-11-15,alice,brd-04,brand,1,2,true,true,listed,1,,none,true,false
+2026-11-15,alice,brd-04,brand,1,3,true,true,listed,1,,none,false,false
+2026-11-15,alice,cat-01,category,3,1,true,false,none,,Велком,listed,false,false
+2026-11-15,alice,cat-01,category,3,2,true,false,none,,,none,false,false
+2026-11-15,alice,cat-01,category,3,3,true,false,none,,Велком,top,false,false
+2026-11-15,alice,cat-02,category,3,1,true,false,none,,Велком,listed,false,false
+2026-11-15,alice,cat-02,category,3,2,true,false,none,,Велком,recommended,false,false
+2026-11-15,alice,cat-02,category,3,3,true,false,none,,Велком,top,false,false
+2026-11-15,alice,cat-03,category,2,1,true,false,none,,Велком,recommended,false,false
+2026-11-15,alice,cat-03,category,2,2,true,false,none,,Велком,listed,false,false
+2026-11-15,alice,cat-03,category,2,3,true,false,none,,Велком,top,false,false
+2026-11-15,alice,cat-04,category,3,1,true,false,none,,Велком,top,false,false
+2026-11-15,alice,cat-04,category,3,2,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,cat-04,category,3,3,true,false,none,,Велком,listed,false,false
+2026-11-15,alice,cat-05,category,2,1,true,false,none,,,none,false,false
+2026-11-15,alice,cat-05,category,2,2,true,false,none,,Брестский мясокомбинат,recommended,false,false
+2026-11-15,alice,cat-05,category,2,3,true,false,none,,,none,false,false
+2026-11-15,alice,cat-06,category,1,1,true,false,none,,Пинский мясокомбинат,recommended,false,true
+2026-11-15,alice,cat-06,category,1,2,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,cat-06,category,1,3,true,false,none,,Брестский мясокомбинат,top,false,false
+2026-11-15,alice,cmp-01,compare,3,1,true,true,recommended,1,Велес-Мит,listed,false,false
+2026-11-15,alice,cmp-01,compare,3,2,true,true,listed,1,Велес-Мит,recommended,false,false
+2026-11-15,alice,cmp-01,compare,3,3,true,true,top,1,Велес-Мит,listed,false,false
+2026-11-15,alice,cmp-02,compare,3,1,true,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,alice,cmp-02,compare,3,2,true,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,alice,cmp-02,compare,3,3,true,true,listed,1,Велес-Мит,listed,false,true
+2026-11-15,alice,cmp-03,compare,2,1,true,true,listed,1,Велес-Мит,listed,false,true
+2026-11-15,alice,cmp-03,compare,2,2,true,true,listed,1,Велес-Мит,listed,false,true
+2026-11-15,alice,cmp-03,compare,2,3,true,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,alice,cmp-04,compare,2,1,true,true,listed,1,,none,false,false
+2026-11-15,alice,cmp-04,compare,2,2,true,true,top,1,Велес-Мит,recommended,false,false
+2026-11-15,alice,cmp-04,compare,2,3,true,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,alice,cmp-05,compare,2,1,true,true,top,2,Велес-Мит,listed,false,false
+2026-11-15,alice,cmp-05,compare,2,2,true,true,recommended,2,Велес-Мит,recommended,false,false
+2026-11-15,alice,cmp-05,compare,2,3,true,true,listed,2,Велес-Мит,recommended,false,false
+2026-11-15,alice,cmp-06,compare,1,1,true,true,recommended,1,Брестский мясокомбинат,recommended,false,true
+2026-11-15,alice,cmp-06,compare,1,2,true,true,listed,2,Брестский мясокомбинат,listed,false,true
+2026-11-15,alice,cmp-06,compare,1,3,true,true,listed,2,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,rsk-01,risk,2,1,true,true,listed,1,,none,false,false
+2026-11-15,alice,rsk-01,risk,2,2,true,true,listed,1,,none,false,false
+2026-11-15,alice,rsk-01,risk,2,3,true,true,listed,1,,none,false,false
+2026-11-15,alice,rsk-02,risk,2,1,true,true,recommended,1,,none,false,false
+2026-11-15,alice,rsk-02,risk,2,2,true,true,recommended,1,,none,false,false
+2026-11-15,alice,rsk-02,risk,2,3,true,true,listed,1,,none,false,false
+2026-11-15,alice,rsk-03,risk,2,1,true,true,listed,1,,none,false,false
+2026-11-15,alice,rsk-03,risk,2,2,true,true,listed,1,,none,false,false
+2026-11-15,alice,rsk-03,risk,2,3,true,true,listed,1,,none,false,false
+2026-11-15,alice,rsk-04,risk,1,1,true,true,listed,1,,none,true,false
+2026-11-15,alice,rsk-04,risk,1,2,true,true,listed,1,,none,true,false
+2026-11-15,alice,rsk-04,risk,1,3,true,true,listed,1,,none,true,false
+2026-11-15,alice,task-01,task,3,1,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,task-01,task,3,2,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,task-01,task,3,3,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,task-02,task,3,1,true,true,listed,1,,none,false,false
+2026-11-15,alice,task-02,task,3,2,true,false,none,,,none,false,false
+2026-11-15,alice,task-02,task,3,3,true,false,none,,Пинский мясокомбинат,negative,false,false
+2026-11-15,alice,task-03,task,3,1,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,task-03,task,3,2,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,task-03,task,3,3,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,task-04,task,2,1,true,false,none,,Брестский мясокомбинат,top,false,false
+2026-11-15,alice,task-04,task,2,2,true,true,listed,2,Брестский мясокомбинат,recommended,false,false
+2026-11-15,alice,task-04,task,2,3,true,false,none,,Брестский мясокомбинат,top,false,false
+2026-11-15,alice,task-05,task,2,1,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,task-05,task,2,2,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,task-05,task,2,3,true,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,alice,task-06,task,2,1,true,false,none,,,none,false,false
+2026-11-15,alice,task-06,task,2,2,true,false,none,,,none,false,false
+2026-11-15,alice,task-06,task,2,3,true,false,none,,,none,false,false
+2026-11-15,alice,tru-01,trust,2,1,true,true,listed,1,,none,false,false
+2026-11-15,alice,tru-01,trust,2,2,true,true,listed,1,,none,false,false
+2026-11-15,alice,tru-01,trust,2,3,true,true,recommended,1,,none,false,false
+2026-11-15,alice,tru-02,trust,2,1,true,true,top,1,,none,true,false
+2026-11-15,alice,tru-02,trust,2,2,true,true,listed,1,,none,true,false
+2026-11-15,alice,tru-02,trust,2,3,true,true,listed,1,,none,false,false
+2026-11-15,alice,tru-03,trust,2,1,true,true,listed,1,,none,false,false
+2026-11-15,alice,tru-03,trust,2,2,true,true,listed,1,,none,false,false
+2026-11-15,alice,tru-03,trust,2,3,true,true,listed,1,,none,false,false
+2026-11-15,alice,tru-04,trust,1,1,true,true,listed,1,,none,false,false
+2026-11-15,alice,tru-04,trust,1,2,true,true,listed,1,,none,false,false
+2026-11-15,alice,tru-04,trust,1,3,true,true,top,1,,none,false,false
+2026-11-15,deepseek-api,brd-01,brand,2,1,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,brd-01,brand,2,2,false,true,recommended,1,,none,false,false
+2026-11-15,deepseek-api,brd-01,brand,2,3,false,true,recommended,1,,none,false,false
+2026-11-15,deepseek-api,brd-02,brand,1,1,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,brd-02,brand,1,2,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,brd-02,brand,1,3,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,brd-03,brand,2,1,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,brd-03,brand,2,2,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,brd-03,brand,2,3,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,brd-04,brand,1,1,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,brd-04,brand,1,2,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,brd-04,brand,1,3,true,true,recommended,1,,none,false,false
+2026-11-15,deepseek-api,cat-01,category,3,1,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,cat-01,category,3,2,false,false,none,,Велком,listed,false,false
+2026-11-15,deepseek-api,cat-01,category,3,3,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,cat-02,category,3,1,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,cat-02,category,3,2,false,false,none,,Велком,listed,false,false
+2026-11-15,deepseek-api,cat-02,category,3,3,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,cat-03,category,2,1,false,false,none,,Велком,recommended,false,false
+2026-11-15,deepseek-api,cat-03,category,2,2,false,false,none,,Велком,listed,false,false
+2026-11-15,deepseek-api,cat-03,category,2,3,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,cat-04,category,3,1,false,false,none,,Велком,listed,false,false
+2026-11-15,deepseek-api,cat-04,category,3,2,false,false,none,,Велком,listed,false,false
+2026-11-15,deepseek-api,cat-04,category,3,3,false,false,none,,Велком,listed,false,false
+2026-11-15,deepseek-api,cat-05,category,2,1,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,cat-05,category,2,2,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,cat-05,category,2,3,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,cat-06,category,1,1,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,cat-06,category,1,2,false,false,none,,Брестский мясокомбинат,top,false,false
+2026-11-15,deepseek-api,cat-06,category,1,3,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,cmp-01,compare,3,1,false,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-01,compare,3,2,false,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-01,compare,3,3,false,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-02,compare,3,1,false,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-02,compare,3,2,false,true,recommended,1,Велес-Мит,recommended,false,false
+2026-11-15,deepseek-api,cmp-02,compare,3,3,false,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-03,compare,2,1,false,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-03,compare,2,2,false,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-03,compare,2,3,false,true,recommended,1,Велес-Мит,recommended,false,false
+2026-11-15,deepseek-api,cmp-04,compare,2,1,false,true,listed,2,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-04,compare,2,2,false,true,listed,1,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-04,compare,2,3,false,true,recommended,1,Велес-Мит,recommended,false,false
+2026-11-15,deepseek-api,cmp-05,compare,2,1,false,true,listed,2,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-05,compare,2,2,false,true,listed,2,Велес-Мит,listed,false,false
+2026-11-15,deepseek-api,cmp-05,compare,2,3,false,true,listed,2,Велес-Мит,recommended,false,false
+2026-11-15,deepseek-api,cmp-06,compare,1,1,false,true,listed,2,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,cmp-06,compare,1,2,false,true,listed,2,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,cmp-06,compare,1,3,false,true,listed,1,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,rsk-01,risk,2,1,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-01,risk,2,2,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-01,risk,2,3,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-02,risk,2,1,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-02,risk,2,2,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-02,risk,2,3,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-03,risk,2,1,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-03,risk,2,2,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-03,risk,2,3,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-04,risk,1,1,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-04,risk,1,2,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,rsk-04,risk,1,3,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,task-01,task,3,1,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-01,task,3,2,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-01,task,3,3,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-02,task,3,1,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-02,task,3,2,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-02,task,3,3,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-03,task,3,1,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-03,task,3,2,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-03,task,3,3,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-04,task,2,1,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,task-04,task,2,2,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-04,task,2,3,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,task-05,task,2,1,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-05,task,2,2,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-05,task,2,3,false,false,none,,Брестский мясокомбинат,listed,false,false
+2026-11-15,deepseek-api,task-06,task,2,1,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,task-06,task,2,2,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,task-06,task,2,3,false,false,none,,,none,false,false
+2026-11-15,deepseek-api,tru-01,trust,2,1,false,true,recommended,1,,none,false,false
+2026-11-15,deepseek-api,tru-01,trust,2,2,false,true,recommended,1,,none,false,false
+2026-11-15,deepseek-api,tru-01,trust,2,3,false,true,recommended,1,,none,false,false
+2026-11-15,deepseek-api,tru-02,trust,2,1,true,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,tru-02,trust,2,2,true,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,tru-02,trust,2,3,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,tru-03,trust,2,1,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,tru-03,trust,2,2,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,tru-03,trust,2,3,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,tru-04,trust,1,1,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,tru-04,trust,1,2,false,true,listed,1,,none,false,false
+2026-11-15,deepseek-api,tru-04,trust,1,3,false,true,listed,1,,none,false,false
