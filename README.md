@@ -45,6 +45,11 @@ pilot-claude-2026-11-15/
   README.md            сверка пилота с разметкой, расхождения, сравнение с основной волной
   report.md            отчёт пилота (как пришёл)
   beltradition/, natura/  брифы, 8 промптов, разметка, 24 ответа на бренд
+quick/                   быстрая проверка по GEO-сервисам (16.11.2026), отдельный каталог
+  quick-check.md         вердикт, пять вопросов, первые правки
+  services.md            реестр обхода 15 сервисов: статус, причина, тариф, движки
+  service-*.md           результаты сработавших: Brandfound, HubSpot, Scrunch
+  raw/                   выгрузки: JSON демо-отчёта Brandfound, тексты HubSpot и Scrunch
 
 tools/
   geo_run.py             прогон промптов в браузере через agent-browser (Алиса, DeepSeek веб)
